@@ -11,24 +11,9 @@ This project handles product inventory, customer data, shopping carts, and file-
 - File I/O for saving and loading supermarket data (`SuperMarket.bin`)
 - Console-based user interface
 
-## 📁 File Structure Overview
+ ## 📁 File Structure Overview ``` SuperMarket/ ├── Customer.c / Customer.h # Customer data & operations ├── Product.c / Product.h # Product inventory logic ├── ShoppingCart.c / ShoppingCart.h # Shopping cart system ├── ShoppingItem.c / ShoppingItem.h # Items inside cart ├── General.c / General.h # General helper functions ├── FileHelper.c / FileHelper.h # File reading/writing ├── Date.c / Date.h # Date handling ├── main.c # Entry point of the program ├── SuperMarket.bin # Binary file with saved data ├── .gitignore └── README.md ```
 
-SuperMarket/
-├── Customer.c / Customer.h # Customer data & operations
-├── Product.c / Product.h # Product inventory logic
-├── ShoppingCart.c / ShoppingCart.h # Shopping cart system
-├── ShoppingItem.c / ShoppingItem.h # Items inside cart
-├── General.c / General.h # General helper functions
-├── FileHelper.c / FileHelper.h # File reading/writing
-├── Date.c / Date.h # Date handling
-├── main.c # Entry point of the program
-├── SuperMarket.bin # Binary file with saved data
-├── .gitignore
-└── README.md
 
-mathematica
-Copy
-Edit
 
 ## 💻 How to Compile
 
